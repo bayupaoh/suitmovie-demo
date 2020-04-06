@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Kitamovie
+
+  Created by Bayu Paoh on 26/02/20.
+  Copyright © 2020 Bayu Paoh. All rights reserved.
+*/
+"Kitamovie" = "Suitmovie";
+"Favorite Movie" = "Favorit";
+"Category" = "Kategori";
+"Popular" = "Populer";
+"Upcoming" = "Segera Tayang";
+"Top Rated" = "Rating Tertinggi";
+"Now Playing" = "Sedang Diputar";
+"Please try again" = "Silahkan coba lagi";
+"Sorry there is an error in our system. Please try again later" = "Maaf ada kesalahan dalam sistem kami. Silahkan coba lagi";
+"There are no movies available" = "Tidak ada film yang tersedia";
+"There are no reviews available" = "Tidak ada review film yang tersedia";
+"Data not found" = "Data tidak ditemukan";
+"Review not available" = "Review belum tersedia";

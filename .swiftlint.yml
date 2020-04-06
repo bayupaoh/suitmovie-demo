@@ -1,0 +1,74 @@
+
+#disabled_rules: # rule identifiers to exclude from running
+#  - trailing_whitespace
+#  - line_length
+#  - force_cast
+#  - redundant_optional_initialization
+  
+#included: # paths to include during linting. `--path` is ignored if present.
+  
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+
+type_name:
+  allowed_symbols: "_"
+
+whitelist_rules:
+  - identifier_name
+  - type_name
+  - colon
+  - comma
+  - operator_whitespace
+  - operator_usage_whitespace
+  - return_arrow_whitespace
+  - mark
+  - private_action
+  - private_outlet
+  - private_over_fileprivate
+  - redundant_string_enum_value
+  - redundant_type_annotation
+  - custom_rules
+  
+identifier_name:
+    min_length: # only min_length
+      error: 2 # only error
+    excluded: # excluded via string array
+      - id
+line_length:
+    warning: 150
+    error: 200
+    ignores_function_declarations: true
+    ignores_comments: true
+    ignores_urls: true
+function_parameter_count:
+    warning: 6
+    error: 8
+reporter: "xcode"
+
+custom_rules:
+    # source (https://github.com/realm/SwiftLint/issues/602)
+    comments_space:
+        name: "Space After Comment"
+        regex: '(^ *\/\/\w+)'
+        message: "There should be a space after //"
+        severity: warning
+    empty_first_line:
+        name: "Empty First Line"
+        regex: '(^[ a-zA-Z ]*(?:class) (?!(?:var|let))[ a-zA-Z:]*\{\n *\S+)'
+        message: "There should be an empty line after a declaration"
+        severity: error
+    empty_line_after_guard:
+        name: "Empty Line After Guard"
+        regex: '(^ *guard[ a-zA-Z0-9=?.\(\),><!]*\{[ a-zA-Z0-9=?.\(\),><!]*\}\n *(?!(?:return|guard))\S+)'
+        message: "There should be an empty line after a guard"
+        severity: error
+    empty_line_after_super:
+        name: "Empty Line After Super"
+        regex: '(^ *super\.[ a-zA-Z0-9=?.\(\)\{\}:,><!]*\n *(?!(?:\}|return))\S+)'
+        message: "There should be an empty line after super"
+        severity: error
+    multiple_empty_lines:
+        name: "Multiple Empty Lines"
+        regex: '((?:\s*\n){3,})'
+        message: "There are too many line breaks"
+        severity: error

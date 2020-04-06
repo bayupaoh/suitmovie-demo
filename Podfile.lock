@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Kingfisher/Core (5.11.0)
+  - Kingfisher/SwiftUI (5.11.0):
+    - Kingfisher/Core
+  - OHHTTPStubs/Core (8.0.0)
+  - OHHTTPStubs/Default (8.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (8.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (8.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (8.0.0)
+  - OHHTTPStubs/Swift (8.0.0):
+    - OHHTTPStubs/Default
+  - SwiftLint (0.37.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher/SwiftUI
+  - OHHTTPStubs/Swift
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - OHHTTPStubs
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Kingfisher: 4569606189149e19c7d9439f47e885d0679b7a90
+  OHHTTPStubs: 9cbce6364bec557cc3439aa6bb7514670d780881
+  SwiftLint: c078a14d7d7ade75e5507795d185e3da41d844d2
+
+PODFILE CHECKSUM: 08fd24d121f70fba99d4d0e1a0564f87dc036a50
+
+COCOAPODS: 1.8.4

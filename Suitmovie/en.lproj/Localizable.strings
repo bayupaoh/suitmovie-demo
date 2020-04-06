@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  Kitamovie
+
+  Created by Bayu Paoh on 26/02/20.
+  Copyright © 2020 Bayu Paoh. All rights reserved.
+*/
+"Kitamovie" = "Suitmovie";
+"Favorite Movie" = "Favorite Movie";
+"Category" = "Category";
+"Popular" = "Popular";
+"Upcoming" = "Upcoming";
+"Top Rated" = "Top Rated";
+"Now Playing" = "Now Playing";
+"Please try again" = "Please try again";
+"Sorry there is an error in our system. Please try again later" = "Sorry there is an error in our system. Please try again later";
+"There are no movies available" = "There are no movies available";
+"There are no reviews available" = "There are no reviews available";
+"Data not found" = "Data not found";
+"Review not available" = "Review not available";
